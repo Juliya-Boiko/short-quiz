@@ -13,17 +13,12 @@ export const bg_gradient = keyframes`
 `;
 
 export const Container = styled.div`
-background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: ${bg_gradient} 15s ease infinite;
-   padding: 40px;
+  padding: 10px;
 	height: 100vh;
-  /* height: 100vh;
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-size: 400% 400%;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  animation: ${bg_gradient} 15s ease infinite; */
+  @media screen and (min-width: 425px) {
+    padding: 40px;
+  }
 `;

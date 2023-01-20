@@ -20,4 +20,9 @@ export const PrimaryBtn = styled.button`
     transform: scale(1.05);
     cursor: pointer;
   }
+
+  &:disabled {
+    color: grey;
+    border: 2px solid grey;
+  }
 `;

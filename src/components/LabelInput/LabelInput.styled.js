@@ -2,11 +2,9 @@ import styled from "styled-components";
 
 export const CustomLabel = styled.label`
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   padding: 5px 15px 8px 15px;
-  font-size: 17px;
+  font-size: 0.9rem;
   font-weight: 400;
   cursor: pointer;
   background-color: ${p => p.info};
@@ -14,6 +12,13 @@ export const CustomLabel = styled.label`
 
   &:nth-last-of-type(4n-3) {
     margin: 0 0 2rem 0;
+  }
+
+  @media screen and (min-width: 425px) {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
