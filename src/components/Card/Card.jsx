@@ -3,7 +3,6 @@ import { Actions } from "../Actions";
 import { LabelInput } from "../LabelInput/LabelInput";
 import { Title } from "components/common/Title.styled";
 import { CardForm } from "./Card.styled";
-import { FadeIn } from 'animate-css-styled-components';
 
 export const Card = ({ data, onChange, onSubmit, onNext }) => {
   const { number, correct, userChoise, statusNext } = data;
@@ -25,12 +24,10 @@ export const Card = ({ data, onChange, onSubmit, onNext }) => {
   return (
     <CardForm onChange={onChange} onSubmit={onSubmit}>
      
-       <FadeIn duration="0.8s" delay="0.5s">
         <Title>{question}</Title>
         {answers.map(({ id, answer }) =>
           <LabelInput key={id} value={answer} color={colorPicker(answer)} />
         )}
-      </FadeIn>
 
       <Actions data={data} onNext={onNext} />
     </CardForm>
