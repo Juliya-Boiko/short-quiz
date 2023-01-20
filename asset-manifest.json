@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-homework-template/static/js/main.d0dd14c1.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.d0dd14c1.js.map": "/react-homework-template/static/js/main.d0dd14c1.js.map"
+    "main.js": "/short-quiz/static/js/main.280db721.js",
+    "index.html": "/short-quiz/index.html",
+    "main.280db721.js.map": "/short-quiz/static/js/main.280db721.js.map"
   },
   "entrypoints": [
-    "static/js/main.d0dd14c1.js"
+    "static/js/main.280db721.js"
   ]
 }
