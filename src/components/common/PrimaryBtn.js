@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const PrimaryBtn = styled.button`
+export const PrimaryBtn = styled(motion.button)`
   width: 200px;
   height: 2.5rem;
   display: flex;
@@ -15,11 +16,7 @@ export const PrimaryBtn = styled.button`
   border-radius: 0.5rem;
   transition: all 150ms ease;
   color: #fff;
-  &:hover {
-    font-size: 0.975rem;
-    transform: scale(1.05);
-    cursor: pointer;
-  }
+
 
   &:disabled {
     color: grey;

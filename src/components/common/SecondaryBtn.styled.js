@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const SecondaryBtn = styled.button`
+export const SecondaryBtn = styled(motion.button)`
   width: 200px;
   height: 2.5rem;
   display: flex;

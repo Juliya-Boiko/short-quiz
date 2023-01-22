@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const CustomLabel = styled.label`
+export const CustomLabel = styled(motion.label)`
   width: 100%;
 
   padding: 5px 15px 8px 15px;

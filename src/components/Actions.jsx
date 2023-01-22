@@ -8,6 +8,7 @@ export const Actions = ({ data, onNext }) => {
     <div>
       {!statusNext
         ? <PrimaryBtn
+          whileHover={{ scale: 1.1, cursor: 'pointer' }}
           type="submit"
           disabled={userChoise === ''}
         >
@@ -15,7 +16,11 @@ export const Actions = ({ data, onNext }) => {
           </PrimaryBtn>
         : null}
       {statusNext
-        ? <SecondaryBtn type="button" onClick={onNext}>
+        ? <SecondaryBtn
+            whileHover={{ scale: 1.1, cursor: 'pointer' }}
+            type="button"
+            onClick={onNext}
+          >
               Далі
           </SecondaryBtn>
         : null}
