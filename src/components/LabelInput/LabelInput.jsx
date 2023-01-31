@@ -10,5 +10,3 @@ export const LabelInput = ({ value, color }) => {
     </CustomLabel>
   );
 };
-
-// style={{ color: color }}
