@@ -1,7 +1,7 @@
 # SHORT-QUIZ 🧠
 
-10 questions about Geografy 🌎 try to give right answer for questions and
-getmaximum points 🏆
+10 questions about Geografy 🌎 try to give right answer for questions and get
+maximum points 🏆
 
 Also in the end you can try one more time 🎊
 
